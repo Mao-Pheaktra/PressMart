@@ -1,0 +1,595 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount:wght@100..900&family=Manufacturing+Consent&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount:wght@100..900&family=Dancing+Script&family=Manufacturing+Consent&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+}
+.nav{
+    position: sticky;
+    z-index: 100;
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    background-color:whitesmoke;
+    justify-content: space-between;
+    box-shadow:rgb(107, 107, 107);
+    top: 0;
+    & h1{
+        font-size: 30px;
+        padding-left: 10px;
+    }
+}
+
+.nav ul{
+    display: flex;
+    gap: 20px;
+}
+.nav ul li{
+    position: relative;
+    width: 120px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    list-style: none;
+    color: black;
+    padding: 10px 0;
+    transition: 0.3s all;
+    border-radius: 8px;
+    & #down{
+        position: absolute;
+        top: 8px;
+        padding-left: 5px;
+    }
+}
+.nav ul li:hover{
+    transition: 0.3s all;
+    background-color: rgba(147, 147, 147, 0.873);
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.nav ul li .drop{
+    display: none;
+    position: absolute;
+    background-color: white;
+    border-radius: 5px;
+    top: 35px;
+    width: 135px;
+    box-shadow: rgb(117, 115, 115);
+    & li{
+        margin-top: 5px;
+        padding-left: 20px;
+        text-align: left;
+        width: 135px;
+    }
+}
+.nav ul li:hover .drop{
+    display: block;
+}
+.nav .icon{
+    width: 200px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+    display: flex;
+    gap: 10px;
+    padding-right: 10px;
+    z-index: 12;
+    & #icon{
+        font-size: 20px;
+        cursor: pointer;
+    }
+    & .active{
+        top: 2%;
+        right: 35%;
+        width: 14px;
+        height: 14px;
+        background-color: blue;
+        position: absolute;
+        color: white;
+        font-weight: 600;
+        text-align: center;
+        place-content: center;
+        border-radius: 50%;
+        font-size: 10px;
+    }
+     & .active-1{
+        top: 2%;
+        right: 15%;
+        width: 14px;
+        height: 14px;
+        background-color: blue;
+        position: absolute;
+        color: white;
+        font-weight: 600;
+        text-align: center;
+        place-content: center;
+        border-radius: 50%;
+        font-size: 10px;
+    }
+}
+.main-content{
+    width: 100%;
+    height: 88vh;
+    background-image: url("/img/9146.jpg");
+    background-size: cover;
+    text-align: center;
+    place-content: center;
+    position: relative;
+    background-repeat: no-repeat;
+    z-index: 12;
+    & .text-content{
+        position: absolute;
+        text-align: center;
+        width: 40%;
+        height: 450px;
+        top: 110px;
+        & h3{
+            font-size: 35px;
+            font-family: "Dancing Script", cursive;
+            color: rgb(241, 97, 97);
+        }
+        & h1{
+            font-size: 60px;
+        }
+        & h2{
+            font-size: 20px;
+            font-weight: 350;
+            color: rgb(214, 79, 124);
+        }
+        & .btt{
+            width: auto;
+            height: auto;
+            display: flex;
+            gap: 25px;
+            margin-top: 35px;
+            justify-content: center;
+            & button{
+                padding: 10px 20px;
+                font-size: 12px;
+                color: rgb(28, 97, 225);
+                border-radius: 10px;
+                background-color: aqua;
+                border: none;
+
+            }
+            & button:hover{
+                transition: 0.3s all;
+                transform: scale(1.1);
+                color: yellow;
+                background-color:  rgb(28, 97, 225);
+            }
+        }
+    }
+}
+.about{
+    width: 90%;
+    height: 25vh;
+    display: flex;
+    gap: 25px;
+    justify-content: space-around;
+    text-align: left;
+    & .box{
+        display: flex;
+        gap: 15px;
+        width: auto;
+        height: auto;
+        margin-top: 15px;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        & #icon{
+            color: rgb(55, 124, 221);
+            font-size: 45px;
+        }
+        
+    }
+    .text-box{
+        width: auto;
+        height: auto;
+        & h3{
+            font-size: 15px;
+            padding-bottom: 15px;
+        }
+        & p{
+            font-size: 10px;
+            color: rgb(70, 68, 68);
+        }
+    }
+}
+.boxing{
+    width: 90%;
+    height: 75vh;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4,auto);
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    & .do{
+    width: 300px;
+    height: 240px;
+    background-color: gray;
+    }
+    .do:nth-child(1){
+        grid-column: span 2;
+        width: 600px;
+        grid-row: span 2;
+        height: 489px;
+        background-image: url(https://gentlemanseoul.com/cdn/shop/files/xh22qcse_1024x1024_crop_center.jpg?v=1740192720);
+        background-size: cover;
+        font-family: "Roboto", sans-serif;
+        text-align: right;
+        & h3{
+            font-size: 20px;
+            color: rgb(89, 89, 254);
+            
+        }
+        & h1{
+            font-size: 30px;
+        }
+        & h2{
+            font-size: 20px;
+            font-weight: 400;
+            color: rgb(67, 67, 67);
+        }
+        & button{
+            border-radius: 15px;
+            width: 100px;
+            height: 30px;
+            font-size: 15px;
+        }
+        & h3,h1,h2,button{
+            margin: 20px 20px;
+        }
+    }
+    .do:nth-child(2){
+        background-image: url(https://frank151.com/wp-content/uploads/2023/06/mschf-microscopic-louis-vuitton-handbag_dezeen_2364_col_2-1704x1704-1.jpg);
+        background-size: cover;
+        color: rgb(245, 250, 255);
+        & h2{
+            background-color: blue;
+            width: 50px;
+            font-size: 12px;
+            border-radius: 2px;
+        }
+        & h1{
+            font-size: 23px;
+        }
+        & h3{
+            font-size: 10px;
+        }
+         & h3,h1,h2{
+            margin: 10px 10px;
+        }
+    }
+    .do:nth-child(3){
+        background-image: url(https://www.firstclasswatches.co.uk/blog/wp-content/uploads/2024/02/feature-image-1-12.jpg);
+        background-size: cover;
+        & h2{
+            background-color: blue;
+            width: 50px;
+            font-size: 12px;
+            border-radius: 2px;
+            color: white;
+        }
+        & h1{
+            font-size: 23px;
+        }
+        & h3{
+            font-size: 10px;
+        }
+        & h3,h1,h2{
+            margin: 10px 10px;
+        }
+    }
+    .do:nth-child(4){
+        grid-column: span 2;
+        width: 610px;
+        background-image: url(https://cdn.luxe.digital/media/20230925121611/best-backpacks-for-women-luxe-digital-1200x600.jpg);
+        background-size: cover;
+        color: rgb(53, 52, 52);
+        & h2{
+            font-size: 15px;
+        }
+        & h1{
+            font-size: 30px;
+        }
+        & h3{
+            font-size: 13px;
+            margin: 40px 20px;
+        }
+        & h1,h2{
+            margin: 20px 20px;
+        }
+    }
+}
+.above{
+    width: 90%;
+    height: 15vh;
+    place-content: center;
+    place-items: center;
+    text-align: center;
+    justify-content: space-between;
+    & h3{
+        font-size: 20px;
+    }
+    & .bom{
+        display: flex;
+        gap: 15px;
+    }
+    & li{
+        list-style: none;
+        margin-top: 20px;
+    }
+    &  li a{
+        text-decoration: none;
+        border-width: 30px;
+        color: black;
+        font-weight: 400;
+    }
+    & .bom li a:hover{
+        transition: 0.3s all;
+        text-decoration: underline;
+        color: blue;
+    }
+}
+.boot{
+    width: 90%;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    & .poster{
+        background-color: white;
+        width: 240px;
+        height: 300px;
+        border-radius: 3px;
+    }
+    .poster:nth-child(1){
+        background-image: url(https://i.pinimg.com/736x/a7/c7/da/a7c7dab0f5c77a01efadd97688f1c60e.jpg);
+        background-size: cover;
+        & h1{
+            font-size: 12px;
+            background-color: rgb(4, 161, 4);
+            width: 50px;
+            height: 18px;
+            color: white;
+        }
+        & h2{
+            font-size: 12px;
+            background-color: rgb(249, 168, 18);
+            width: 50px;
+            height: 18px;
+            margin-top: 10px;
+            color: white;
+        }
+    }
+    .poster:nth-child(2){
+        background-image: url(https://i.pinimg.com/1200x/93/b0/4f/93b04f5865d288dc8ce5a562dc4d67ab.jpg);
+        background-size: cover;
+    }
+    .poster:nth-child(3){
+        background-image: url(https://i.pinimg.com/1200x/64/c4/9f/64c49fcfa2133bea8ed61b02fd3de977.jpg);
+        background-size: cover;
+    }
+    .poster:nth-child(4){
+        background-image: url(https://i.pinimg.com/736x/3c/70/7b/3c707b2254b9f416f7add1c387ec8c1c.jpg);
+        background-size: cover;
+    }
+    .poster:nth-child(5){
+        background-image: url(https://i.pinimg.com/1200x/6a/80/76/6a8076471723ce0203980a97c2d93e73.jpg);
+        background-size: cover;
+    }
+    
+}
+.men{
+    width: 90%;
+    height: 25vh;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    & .icon{
+        width: 240px;
+        height: auto;
+        
+        align-items: center;
+        align-content: center;
+        & h2{
+            font-size: 13px;
+        }
+        & h3{
+            font-size: 14px;
+        }
+        & h2,h3{
+            font-weight: 300;
+        }
+        & #i{
+            color: orange;
+        }
+    }
+}
+.booting{
+    width: 90%;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    & .posting{
+        background-color: gray;
+        width: 240px;
+        height: 300px;
+        border-radius: 3px;
+    }
+    .posting:nth-child(1){
+        background-image: url(https://fausto.in/cdn/shop/products/FST_FOBWC-1503_GOLDEN_1-1_MOOD_6611f676-23f5-4eb0-bd7b-c527c4123b70_400x.jpg?v=1679576984);
+        background-size: cover;
+        & h1{
+            font-size: 12px;
+            background-color: rgb(249, 168, 18);
+            width: 50px;
+            height: 18px;
+            margin-top: 0px;
+            color: white;
+        }
+    }
+    .posting:nth-child(2){
+        background-image: url(https://i.pinimg.com/736x/d5/38/d1/d538d17b7b6ea2130ceb006c4e117ed8.jpg);
+        background-size: cover;
+        & h1{
+            font-size: 12px;
+            background-color: rgb(4, 161, 4);
+            width: 50px;
+            height: 18px;
+            color: white;
+        }
+        & h2{
+            font-size: 12px;
+            background-color: rgb(249, 168, 18);
+            width: 50px;
+            height: 18px;
+            margin-top: 10px;
+            color: white;
+        }
+    }
+    .posting:nth-child(3){
+        background-image: url(https://i.pinimg.com/564x/fc/4f/43/fc4f4349fa9e36df4cb36f00ebf7e080.jpg);
+        background-size: cover;
+    }
+    .posting:nth-child(4){
+        background-image: url(https://willieswallets.com/wp-content/uploads/2018/12/Anreisha-Fashion-Long-Woman-Purse-New-Designer-Female-Wallet-Clutch-PU-Leather-Ladies-Purses-Card-Holder-5.jpg);
+        background-size: cover;
+        & h1{
+            font-size: 12px;
+            background-color:rgb(4, 161, 4);
+            width: 50px;
+            height: 18px;
+            margin-top: 0px;
+            color: white;
+        }
+    }
+    .posting:nth-child(5){
+        background-image: url(https://www.boreiangkor.com/wp-content/uploads/2023/12/style-of-krama-khmer.jpg);
+        background-size: cover;
+    } 
+} 
+.Women{
+    width: 90%;
+    height: 25vh;
+    
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+   
+    & .iconed{
+        width: 240px;
+        height: 100px;
+        
+        align-items: center;
+        align-content: center;
+        & h2{
+            font-size: 13px;
+        }
+        & h3{
+            font-size: 14px;
+        }
+        & h2,h3{
+            font-weight: 300;
+        }
+        & #q{
+            color: orange;
+        }
+    }
+}
+.last{
+    width: 90%;
+    height: 50vh;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    & .yol{
+        width: 620px;
+        height: 300px;
+        background-color: aquamarine;
+    }
+    & .yol:nth-child(1){
+        background-image:url(https://i.pinimg.com/736x/46/a5/79/46a579d7db7ca10cccab361f019b44e1.jpg) ;
+        & h2{
+            font-size: 15px;
+        }
+        & h1{
+            font-size: 30px;
+        }
+        & h3{
+            font-size: 15px;
+            font-weight: 280;
+        }
+        & h4{
+            font-size: 10px;
+        }
+        & b{
+            color: blue;
+        }
+        & h1,h2,h3,h4{
+            margin: 15px 15px;
+        }
+    }
+    & .yol:nth-child(2){
+        background-image: url(https://i.pinimg.com/736x/90/3f/c7/903fc7fe2c85943cc947f06e220d9ba1.jpg);
+         & h2{
+            font-size: 15px;
+        }
+        & h1{
+            font-size: 30px;
+        }
+        & h3{
+            font-size: 15px;
+            font-weight: 280;
+        }
+        & h4{
+            font-size: 10px;
+        }
+        & b{
+            color: blue;
+        }
+        & h1,h2,h3,h4{
+            margin: 15px 15px;
+        }
+    }
+}
+.pro{
+    width: 90%;
+    height: 20vh;
+    display: flex;
+    gap: 25px;
+    justify-content: space-around;
+    background-color: rgb(51, 49, 49);
+    color: white;
+    & .max{
+        justify-content: center;
+        margin-top: 30px;
+        & #jk{
+            color: white;
+        }
+    }
+}
