@@ -123,7 +123,7 @@ body{
 .main-content{
     width: 100%;
     height: 88vh;
-    background-image: url("./img/9146.jpg");
+    background-image: url("../img/9146.jpg");
     background-size: cover;
     text-align: center;
     place-content: center;
