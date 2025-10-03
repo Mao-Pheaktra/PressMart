@@ -1,0 +1,212 @@
+[
+    {
+        "id": 1,
+        "name": "Apple",
+        "image": "https://i.pinimg.com/1200x/62/a8/bd/62a8bd58fbc9bb5d7e5517ac0d2d1ce6.jpg",
+        "description": "A crisp, juicy red fruit packed with fiber.",
+        "price": 1.2
+    },
+    {
+        "id": 2,
+        "name": "Banana",
+        "image": "https://i.pinimg.com/1200x/1c/16/62/1c1662f546cc85a1d77732c840ff9113.jpg",
+        "description": "A soft, sweet fruit rich in potassium.",
+        "price": 0.5
+    },
+    {
+        "id": 3,
+        "name": "Orange",
+        "image": "https://i.pinimg.com/736x/90/28/81/90288198edffa1d0f96b194ae0448409.jpg",
+        "description": "Citrus fruit loaded with vitamin C.",
+        "price": 0.8
+    },
+    {
+        "id": 4,
+        "name": "Strawberry",
+        "image": "https://i.pinimg.com/736x/2e/dd/e5/2edde51bf1093fb111181945aa234470.jpg",
+        "description": "Bright red berries with a sweet flavor.",
+        "price": 1.5
+    },
+    {
+        "id": 5,
+        "name": "Grapes",
+        "image": "https://i.pinimg.com/736x/2c/ec/b3/2cecb32f92e1f7282a74370947b9b48d.jpg",
+        "description": "Small, juicy fruits that come in bunches.",
+        "price": 2.0
+    },
+    {
+        "id": 6,
+        "name": "Pineapple",
+        "image": "https://i.pinimg.com/736x/0e/f9/ff/0ef9ff8f00d0ae17223c694a2829f97a.jpg",
+        "description": "Tropical fruit with a spiky shell and sweet yellow flesh.",
+        "price": 3.0
+    },
+    {
+        "id": 7,
+        "name": "Watermelon",
+        "image": "https://i.pinimg.com/1200x/df/8b/8a/df8b8a50f08a0e8cdfe3bea2abb40f9e.jpg",
+        "description": "Large, juicy fruit with a green rind and red pulp.",
+        "price": 4.0
+    },
+    {
+        "id": 8,
+        "name": "Blueberry",
+        "image": "https://i.pinimg.com/1200x/7a/2d/3f/7a2d3f42272a7953eb0dc078b0ce0d9b.jpg",
+        "description": "Small blue fruits rich in antioxidants.",
+        "price": 2.5
+    },
+    {
+        "id": 9,
+        "name": "Mango",
+        "image": "https://i.pinimg.com/1200x/08/8e/ae/088eaea64cf379c3c7d062dbcc0b1749.jpg",
+        "description": "Sweet tropical fruit with golden flesh.",
+        "price": 1.8
+    },
+    {
+        "id": 10,
+        "name": "Peach",
+        "image": "https://i.pinimg.com/1200x/07/f9/4e/07f94eea23a4bc7389998b53d234d41f.jpg",
+        "description": "Soft, fuzzy fruit with a sweet and juicy taste.",
+        "price": 1.4
+    },
+    {
+        "id": 11,
+        "name": "Kiwi",
+        "image": "https://i.pinimg.com/736x/f4/0b/45/f40b450d1d20c8525f0b42d0b37883d7.jpg",
+        "description": "Small brown fruit with bright green, tart flesh.",
+        "price": 1.0
+    },
+    {
+        "id": 12,
+        "name": "Papaya",
+        "image": "https://i.pinimg.com/1200x/e7/1f/bf/e71fbfc7add78aefc7d81dad746b1f0d.jpg",
+        "description": "Tropical fruit with orange flesh and black seeds.",
+        "price": 2.2
+    },
+    {
+        "id": 13,
+        "name": "Pomegranate",
+        "image": "https://i.pinimg.com/736x/2e/36/2a/2e362accd710075ac4a82c47bf8bedfa.jpg",
+        "description": "Fruit with juicy red arils packed with antioxidants.",
+        "price": 2.6
+    },
+    {
+        "id": 14,
+        "name": "Guava",
+        "image": "https://i.pinimg.com/736x/b1/21/04/b121040239ce9bd512a1bd7620901f7d.jpg",
+        "description": "Tropical fruit with a sweet, floral flavor.",
+        "price": 1.3
+    },
+    {
+        "id": 15,
+        "name": "Lemon",
+        "image": "https://i.pinimg.com/736x/f2/0b/16/f20b16883386bc8ec55f9f751e3ef454.jpg",
+        "description": "Sour yellow citrus fruit often used in drinks.",
+        "price": 0.6
+    },
+    {
+        "id": 16,
+        "name": "Lime",
+        "image": "https://i.pinimg.com/1200x/c0/b4/16/c0b416b7cf354e5a1ae24068c15a20a0.jpg",
+        "description": "Tart green citrus fruit used in cooking and drinks.",
+        "price": 0.5
+    },
+    {
+        "id": 17,
+        "name": "Raspberry",
+        "image": "https://i.pinimg.com/1200x/b2/f3/85/b2f3859ac45cb6d2402bd874c4b34a96.jpg",
+        "description": "Tiny red berries with a slightly tart flavor.",
+        "price": 2.3
+    },
+    {
+        "id": 18,
+        "name": "Blackberry",
+        "image": "https://i.pinimg.com/736x/f1/9a/06/f19a064db5a2dbab9c5931c5fd70b51d.jpg",
+        "description": "Dark purple berries that are juicy and sweet.",
+        "price": 2.4
+    },
+    {
+        "id": 19,
+        "name": "Cherries",
+        "image": "https://i.pinimg.com/736x/d6/dc/ef/d6dcefe5d1e9143844fef5136c9786a2.jpg",
+        "description": "Small red fruits with a pit, sweet or tart.",
+        "price": 2.8
+    },
+    {
+        "id": 20,
+        "name": "Coconut",
+        "image": "https://i.pinimg.com/1200x/9a/9f/e1/9a9fe139d6035ab2b049f5f237815265.jpg",
+        "description": "Tropical nut with white meat and refreshing water.",
+        "price": 3.5
+    },
+    {
+        "id": 21,
+        "name": "Pear",
+        "image": "https://i.pinimg.com/736x/65/83/3f/65833ff0b63a91fe5ac0088839686986.jpg",
+        "description": "Sweet fruit with soft, grainy flesh.",
+        "price": 1.1
+    },
+    {
+        "id": 22,
+        "name": "Plum",
+        "image": "https://i.pinimg.com/736x/9b/01/46/9b01463eb0b6c594205da78d3527d8e7.jpg",
+        "description": "Juicy fruit with smooth skin and a pit.",
+        "price": 1.2
+    },
+    {
+        "id": 23,
+        "name": "Fig",
+        "image": "https://i.pinimg.com/736x/84/7b/c9/847bc9c72ebeb47012025c36ac21f726.jpg",
+        "description": "Soft fruit with many tiny seeds and a sweet taste.",
+        "price": 2.7
+    },
+    {
+        "id": 24,
+        "name": "Dragon Fruit",
+        "image": "https://i.pinimg.com/1200x/3e/51/a2/3e51a2d4cbf63014d0b1092a2493f572.jpg",
+        "description": "Exotic fruit with vibrant skin and speckled flesh.",
+        "price": 3.0
+    },
+    {
+        "id": 25,
+        "name": "Starfruit",
+        "image": "https://i.pinimg.com/1200x/1a/f2/ed/1af2ed12bcfe955584c35d7ac5c3d071.jpg",
+        "description": "Yellow tropical fruit shaped like a star.",
+        "price": 2.0
+    },
+    {
+        "id": 26,
+        "name": "Passion Fruit",
+        "image": "https://i.pinimg.com/736x/57/d8/f7/57d8f73675f6391bd8a3d514c668ccc9.jpg",
+        "description": "Small fruit with a tough rind and sweet-tart pulp.",
+        "price": 2.5
+    },
+    {
+        "id": 27,
+        "name": "Cantaloupe",
+        "image": "https://i.pinimg.com/736x/05/1e/f7/051ef76a110dfd40de4aef4e601c3040.jpg",
+        "description": "Melon with sweet orange flesh and netted rind.",
+        "price": 3.0
+    },
+    {
+        "id": 28,
+        "name": "Honeydew",
+        "image": "https://i.pinimg.com/1200x/d5/99/e8/d599e8663580968dbe193a66f68c72e8.jpg",
+        "description": "Sweet melon with pale green flesh.",
+        "price": 2.9
+    },
+    {
+        "id": 29,
+        "name": "Apricot",
+        "image": "https://i.pinimg.com/1200x/25/62/05/2562054610a995a53b2a31110a90d7c8.jpg",
+        "description": "Small orange fruit with a tangy flavor.",
+        "price": 1.6
+    },
+    {
+        "id": 30,
+        "name": "Jackfruit",
+        "image": "https://i.pinimg.com/736x/49/2f/36/492f362d25af970d3e3341a588380434.jpg",
+        "description": "Large tropical fruit with sweet yellow pods inside.",
+        "price": 4.5
+    }
+]
