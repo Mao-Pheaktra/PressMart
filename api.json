@@ -208,5 +208,76 @@
         "image": "https://i.pinimg.com/736x/49/2f/36/492f362d25af970d3e3341a588380434.jpg",
         "description": "Large tropical fruit with sweet yellow pods inside.",
         "price": 4.5
+    },
+    {
+      "id": 31,
+      "name": "Ackee",
+      "image": "https://i.pinimg.com/1200x/ef/0e/a1/ef0ea169beebffbe0de5e024875261e1.jpg",
+      "description": "Tropical fruit native to West Africa, known for its savory flavor when cooked.",
+      "price": 3.8
+    },
+    {
+      "id": 32,
+      "name": "Rambutan",
+      "image": "https://i.pinimg.com/736x/f2/29/d2/f229d2e4bb51c96ce559f0a8c76d0864.jpg",
+      "description": "Spiky red fruit with juicy, sweet translucent flesh inside.",
+      "price": 4.2
+    },
+    {
+      "id": 33,
+      "name": "Salak (Snake Fruit)",
+      "image": "https://i.pinimg.com/736x/4e/61/a8/4e61a8181aa02c230c00de8c2d70e515.jpg",
+      "description": "Brown scaly-skinned fruit with a sweet and tangy taste.",
+      "price": 3.7
+    },
+    {
+      "id": 34,
+      "name": "Mulberry",
+      "image": "https://i.pinimg.com/1200x/1d/d3/07/1dd3071dab0606826981dc7a6f8a3b9b.jpg",
+      "description": "Small purple or red berries with a sweet and tart flavor.",
+      "price": 2.9
+    },
+    {
+      "id": 35,
+      "name": "Jabuticaba",
+      "image": "https://i.pinimg.com/736x/18/14/c9/1814c9f70083497ad3528c07b16e56bd.jpg",
+      "description": "Brazilian fruit that grows directly on the tree's trunk; tastes like grape.",
+      "price": 4.5
+    },
+    {
+      "id": 36,
+      "name": "Soursop",
+      "image": "https://i.pinimg.com/736x/b0/60/3a/b0603a44a1de6022dd009b4f959614ba.jpg",
+      "description": "Green spiky fruit with white, tangy pulp inside used in juices and desserts.",
+      "price": 3.9
+    },
+    {
+      "id": 37,
+      "name": "Longan",
+      "image": "https://i.pinimg.com/1200x/ba/38/c7/ba38c7cf4a56fb5733bc8c15d9ff9208.jpg",
+      "description": "Small brown tropical fruit with translucent sweet flesh.",
+      "price": 2.8
+    },
+    {
+      "id": 38,
+      "name": "Miracle Fruit",
+      "image": "https://i.pinimg.com/1200x/08/07/11/080711e07c515739d84292433a09f7c9.jpg",
+      "description": "Berry that makes sour foods taste sweet after eating.",
+      "price": 5.0
+    },
+    {
+      "id": 39,
+      "name": "Bael Fruit",
+      "image": "https://i.pinimg.com/736x/e7/df/3d/e7df3df1493ddff6589007c0c7c78f6e.jpg",
+      "description": "Hard-shelled fruit from India with sweet aromatic pulp used in drinks.",
+      "price": 3.2
+    },
+    {
+      "id": 40,
+      "name": "Breadfruit",
+      "image": "https://i.pinimg.com/1200x/86/a4/20/86a4201b4df93c58da5db57fb91da1e3.jpg",
+      "description": "Large tropical fruit with potato-like flesh, often cooked or baked.",
+      "price": 4.0
     }
-]
+  ]
+
